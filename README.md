@@ -2,6 +2,9 @@
 
 The problem of Monocular Depth Estimation has widespread appliactions in Computer Vision, whether it is Autonoumous Driving, Robotic Surgeries etc. This repository is a collection of an ONGOING RESEARCH aimed at designing new, lightweight and accurate Supervised Learning methods for Monocular Depth Estimation. We have choosen the NYU - depth V2 dataset that has 1449 single still images, collection of indoor and outdoor scenes. 
 
+![image](https://user-images.githubusercontent.com/78918963/176651979-15f49083-030f-474d-9c4a-9c6aa38b33ab.png)
+
+
 This Repository currently has 4 previous state-of-the-art models that have been analysed and implemented by us in Google Colaboratory.
 
 **NOTE :** All these models are quite demanding of Computational Resources, to which we do not have the acess to. So all these models could not have been run to the standards the papers have described. 
