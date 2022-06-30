@@ -10,6 +10,7 @@ This Repository currently has 4 previous state-of-the-art models that have been 
 This article proposes and Encoder-Decoder based approach and aim at further optimizing the model by using Reinforcment Learning to Prune the model, and finally GPU       overhead Scheduling to reduce GPU latency. The basic model backbone is a MobileNetV2 based encoder and a novice UpSampConv Layer that make up the Deocder. 
     
 **2. Monocular Depth Estimation Using Multi Scale Neural Network And Feature Fusion : Abhinav Sagar**
+This model used a novel network architecture using multi scale feature fusion. This network uses two different blocks, first which uses different filter sizes for convolution and merges all the individual feature maps provided by the pre-trained DenseNet network.The second block uses di- lated convolutions in place of fully connected layers thus reducing computations and increasing the receptive field.
 
 **3. Monocular Depth Estimation with Adaptive Geometric Attention : Taher Naderi, Amir Sadovnik, Jason Haywardy, Hairong Qi**
 This research article is based on the development of a novice Adaptive Geometric Attention Module, based on the concept of Attention, borrowed from the field of         Natural Language Processing. This model is based on an Encoder-Decoder based approach, where the ResNeXt 101 is an Encoder and a custom Decoder based on an               organisation of AGA, DRB (Dilated Residual Blocks) and the ASPP (Atrous Spatial Pyramid Pooling).
