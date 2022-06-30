@@ -7,7 +7,7 @@ The problem of Monocular Depth Estimation has widespread appliactions in Compute
 
 This Repository currently has 4 previous state-of-the-art models that have been analysed and implemented by us in Google Colaboratory.
 
-**NOTE :** All these models are quite demanding of Computational Resources, to which we do not have the acess to. So all these models could not have been run to the standards the papers have described. 
+**NOTE :** All these models are quite demanding of Computational Resources, to which we do not have the acess to. So all these models could not have been run to the standards the papers have described. To put this in Retrospect, using Google Colab GPU accelerator, an epoch needs 4 hours to train. To run a model with 5000 epochs is simply not possible
 
 **1. Lightweight Monocular Depth Estimation on Edge Devices : Siping Liu, Laurence T. Yang, Xiaohan Tu, Renfa Li and Cheng Xu** [Incomplete]
 This article proposes and Encoder-Decoder based approach and aim at further optimizing the model by using Reinforcment Learning to Prune the model, and finally GPU       overhead Scheduling to reduce GPU latency. The basic model backbone is a MobileNetV2 based encoder and a novice UpSampConv Layer that make up the Deocder. 
